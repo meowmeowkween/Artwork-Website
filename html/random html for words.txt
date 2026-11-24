@@ -1,0 +1,41 @@
+<p> Or if you're a wordy turdy, check out my poetry page! </p>
+
+<a href="poetry1.html">
+    <button>
+        Poetry 1
+    </button> </a>
+
+<a href="format.html">
+     <button>
+         The very obvious poetry
+     </button></a>
+
+
+
+
+<br>
+
+<a href="fontsize.html">
+<button>
+    fun with fonts
+</button></a> 
+
+<br>
+<br>
+<br>
+
+<hr style="font-size:20px;">
+
+<p></p>
+
+<a href="101.html">
+    <button>
+       Ooh what is this!?
+    </button></a>
+
+</body>
+</html>
+
+
+
+

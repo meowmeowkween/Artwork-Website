@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My First Webpage</title>
+    <meta charset="UTF-8">
+   <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+<body class="works_on_smartphone">
+
+<header>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </nav>
+ <li class="logo">&#9733;</li>
+    </header>
+
+    <h1>Welcome to My First Webpage</h1>
+    <h2>This is a second-level heading</h2>
+    <h3>This is a third-level heading</h3>
+
+    <p>This is the first paragraph of text about my chosen topic.</p>
+    <p>This is the second paragraph where I add more details to the page.</p>
+    <p>This is the third paragraph helping to meet the task requirements.</p>
+    <p>This is the fourth paragraph to ensure there are at least four paragraphs total.</p>
+
+    <p>Click the image below to learn more:</p>
+    <a href="https://holbertonschool.com">
+      <img src="https://holbertonschool.com" alt="Holberton Logo">
+    </a>
+
+  </body>
+</html>

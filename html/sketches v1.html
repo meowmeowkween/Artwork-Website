@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Sketches .1</title>
+    <style>
+Body {
+          Background-color: dimgray;
+}
+        
+div {
+          display: flex;
+          justify-content: center;
+}
+
+<!-- modal style --!>
+.modal {
+    display: none; /* Hide modal by default */
+    position: fixed; /* Stay on top of other content */
+    z-index: 10; /* High z-index to be on top */
+    padding-top: 50px; /* Location of the box (top) */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black background with opacity */
+}
+
+/* modal content (img container) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width:80%
+    max-width 700px /* centers image vertically in viewport*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate (-50%,-50%);
+}
+
+/* Close button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    text-decoration: none;
+    z-index: 11; /* Ensure close button is above image */
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    cursor: pointer;
+}
+
+
+
+       
+    </style>
+
+</head>
+
+<body>
+
+
+
+
+<!-- CSS feature- can click on each sketch for larger original size image,
+these can have black backgrounds< Javascript and CSS--!>
+
+
+<div class="container">
+<a href= "#img-modal">
+     <img src="panther_ring.jpg"
+          style="width:40%">
+</a>
+</div>
+
+<!-- hidden modal --!>
+
+<div id="img-modal" class="modal">
+
+<!-- Close button (x) --!>
+
+   <a href="#!" class="close">&times;</a>
+
+<!-- image within hidden modal --!>
+<div class="modal-content">
+    <img src="panther_ring.jpg">
+</div>
+</div>
+
+
+<br>
+<br>
+
+<div>
+<img src="dolls.jpg"
+     style="width:40%">
+</div>
+<br>
+<br>
+
+<div>
+<img src="boxcopy.jpg"
+     style="width:40%">
+</div>
+
+<br>
+<br>
+<hr>
+
+<a href="homepage.html">
+<button style="background-color: white;
+               color: black;
+               padding: 15x 25 px; 
+               border-radius: 5px;
+               text-align: center;
+               font-family: 'Arial', sans-serif;
+               font-size: 100%;
+               font-weight: 200">
+   Homepage
+</button></a>
+
+
+
+
+</body>
+</html>
+
